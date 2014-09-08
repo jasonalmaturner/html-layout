@@ -1,0 +1,34 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.content {
+  width: 75%;
+  height: 100%;
+  float: left;
+  display: inline-block;
+}
+.leftColumn {
+  background-color: blue;
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.middleColumn {
+  background-color: red;
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+.rightColumn {
+  background-color: black;
+  width: 25%;
+  height: 100%;
+  float: right;
+}
+.rightPicture img {
+  width: 25%;
+  height: 25%;
+  position: absolute;
+  bottom: 0px;
+}
